@@ -1,0 +1,7 @@
+*.class
+.replit
+.nix
+.breakpoints
+.upm
+.cache
+.DS_Store
