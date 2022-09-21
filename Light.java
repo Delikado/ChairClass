@@ -2,6 +2,9 @@ public class Light {
     int lumens, watts;
     String type;
     boolean isOn;
+    Chair chair;
+    double comfort;
+  
   
     public void print(String message){
       System.out.print(message);
@@ -29,7 +32,19 @@ public class Light {
       this.type = type;
       this.isOn = isOn;
     }
+
+    public Light(int lumens, int watts, String type, boolean isOn, double comfort){
+      this.lumens = lumens;
+      this.watts = watts;
+      this.type = type;
+      this.isOn = isOn;
+      this.comfort = comfort;
+    }
   
+    public void sit(){
+      printLn("You sit in your " + chair.getColor() + " chair light. On a scale from 1-10 on how comfortable it is, it's a " + comfort + ". It's " + lumens + " lumens bright. Now you can enjoy a book!");
+    }
+    
     public void turnOn(){
       isOn = true;
     }
