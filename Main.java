@@ -15,7 +15,7 @@ public class Main {
     
     System.out.println();
     
-    Chair atem = new Chair("gray");
+    Chair atem = new Chair(60, 90, "gray");
     System.out.println(atem);
     atem.changePosition(270.5);
 
