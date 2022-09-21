@@ -43,7 +43,7 @@ public class Light {
     }
   
     public void sit(){
-      printLn("You sit in your " + chair.getColor() + " chair light. On a scale from 1-10 on how comfortable it is, it's a " + comfort + ". It's " + lumens + " lumens bright. Now you can enjoy a vtuber stream!");
+      printLn("You sit in a " + chair + " chair light. On a scale from 1-10 on how comfortable it is, it's a " + comfort + ". It's " + lumens + " lumens bright. Now you can enjoy a vtuber stream!");
     }
     
     public void turnOn(){
