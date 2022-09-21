@@ -2,6 +2,7 @@ public class Chair {
   private int height;
   private double position;
   private String color;
+  private Light light;
 
   public Chair() {
     height = 60; //inches

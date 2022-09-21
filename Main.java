@@ -19,7 +19,10 @@ public class Main {
     System.out.println(atem);
     atem.changePosition(270.5);
 
-    Light bancho = new Light(500, 70, "Incandesescent", true);
+    Light bancho = new Light(500, 70, "Incandesescent", true, 9.8);
     System.out.println(bancho);
+    bancho.sit();
   }
+
+
 }
